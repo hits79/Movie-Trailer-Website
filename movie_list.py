@@ -1,4 +1,4 @@
-
+import fresh_tomatoes
 import media
 
 #this file will store all my favorite movies list, it will have name of the movie, the storyline, image url, and yotube trailer
@@ -33,12 +33,12 @@ the_incredible_hulk = media.Movie("The Incredible Hulk",
 	"http://ia.media-imdb.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX214_AL_.jpg", 
 	"https://www.youtube.com/watch?v=xbqNb2PFKKA")
 
-sherlock_homes = media.Movie("Sherlock Holmes", 
+sherlock_holmes = media.Movie("Sherlock Holmes", 
 	"Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.", 
 	"http://ia.media-imdb.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX214_AL_.jpg", 
 	"https://www.youtube.com/watch?v=J7nJksXDBWc")
 
-sherlock_homes_games_of_shadows = media.Movie("Sherlock Holmes: A Game of Shadows", 
+sherlock_holmes_games_of_shadows = media.Movie("Sherlock Holmes: A Game of Shadows", 
 	"Sherlock Holmes and his sidekick Dr. Watson join forces to outwit and bring down their fiercest adversary, Professor Moriarty.", 
 	"http://ia.media-imdb.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_SX214_AL_.jpg", 
 	"https://www.youtube.com/watch?v=DpxtbtnC1u8")
@@ -58,4 +58,5 @@ lucy = media.Movie("Lucy",
 	"http://ia.media-imdb.com/images/M/MV5BODcxMzY3ODY1NF5BMl5BanBnXkFtZTgwNzg1NDY4MTE@._V1_SX214_AL_.jpg", 
 	"https://www.youtube.com/watch?v=6Vu081NOorA")
 
-lucy.show_trailer()
+movies = [the_avengers, avengers, iron_man, iron_man_2, iron_man_3, the_incredible_hulk, sherlock_holmes, sherlock_holmes_games_of_shadows, dawn_of_the_planet_of_the_apes, rise_of_the_planet_of_the_apes, lucy]
+fresh_tomatoes.open_movies_page(movies)
