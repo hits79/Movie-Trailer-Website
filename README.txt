@@ -10,10 +10,12 @@ WHAT IS INCLUDED
 -movie_list.py - list of all my movies, images, summary, and youtube links
 
 
-HOW TO USE
+INSTRUCTIONS
 --------------------------------------
-open fresh_tomatoes.html with any browser you have install.
--right click on the file and open with "name of your browser"
+1. Download repository
+2. Open cmd prompt
+3. Navigate to your download directory
+4. Run the program by typing "python movie_list.py" in the command line.
 
 CONTACT INFORMATION
 --------------------------------------
